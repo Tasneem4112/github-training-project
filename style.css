@@ -289,3 +289,25 @@ footer{
 body{
     background-color:#f5f5f5;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #222;
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #00bcd4;
+}
