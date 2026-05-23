@@ -319,3 +319,16 @@ html {
   transform: translateY(-8px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  display: none;
+  font-size: 18px;
+}
